@@ -1,0 +1,21 @@
+@import '../../assets/variables.scss';
+.scroll-up-button{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    button{
+    margin: 20px;
+    font-size: 35px;
+    background-color:$primary-dark-color;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+}
