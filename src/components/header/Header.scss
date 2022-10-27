@@ -1,11 +1,13 @@
 .header{
     height: 300px;
     width: 100%;
-    padding: 10px;
-    background-color: blueviolet;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
    &__logo{
-    height: auto;
-    width: 200px;
+    width: 160px;
+    height: 80px;
     img{
         height: 100%;
         width: 100%;

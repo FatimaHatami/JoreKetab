@@ -3,13 +3,28 @@ import ReactDOM from 'react-dom/client';
 import './index.scss';
 import App from './components/App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import PublicBooks from './Pages/publicBooks/PublicBooks';
+import ForeignBooks from './Pages/foreignBooks/ForeignBooks';
+import SchoolBooks from './Pages/schoolBooks/SchoolBooks';
+import ChildrenBooks from './Pages/childrenBooks/ChildrenBooks';
+
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<App />}></Route>
+      <Route path='/PublicBooks' element={<PublicBooks/>}></Route>
+      <Route path='/SchoolBooks' element={<SchoolBooks/>}></Route>
+      <Route path='/ForeignBooks' element={<ForeignBooks/>}></Route>
+      <Route path='/ChildrenBooks' element={<ChildrenBooks/>}></Route>
+    </Routes>
+    
+    </BrowserRouter>
   </React.StrictMode>
 );
 
