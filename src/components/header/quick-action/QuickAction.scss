@@ -1,3 +1,4 @@
+@import "../../../assets/variables.scss";
 .quick-action{
     height: 80px;
     display: flex;
@@ -7,7 +8,7 @@
         background:none;
         border: none;
         outline: none;
-        font-size: 35px;
+        font-size: $icon-font-size;
         transition: .4s;
         margin: 0 5px;
         cursor:pointer;

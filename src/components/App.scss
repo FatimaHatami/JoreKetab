@@ -1,3 +1,52 @@
+@import '../assets/variables.scss';
+
+ // fonts
+ @font-face {
+  font-family: "shabnam";   /*Can be any text*/
+  src: local("shabnam"),
+    url("../fonts/Shabnam.ttf") format("truetype"),
+    url("../fonts/Shabnam.woff") format("woff"),
+    url("../fonts/Shabnam.eot") format("eot"),
+    url("../fonts/Shabnam-Bold.ttf") format("ttf"),
+    url("../fonts/Shabnam-Bold.woff") format("woff"),
+    url("../fonts/Shabnam-Bold.eot") format("eot"),
+    url("../fonts/Shabnam-Bold.woff2") format("woff2"),
+    url("../fonts/Shabnam-Light.ttf") format("ttf"),
+    url("../fonts/Shabnam-Light.woff") format("woff"),
+    url("../fonts/Shabnam-Light.eot") format("eot"),
+    url("../fonts/Shabnam-Light.woff2") format("woff2"),
+    url("../fonts/Farsi-Digits/Shabnam-FD.ttf") format("ttf"),
+    url("../fonts/Farsi-Digits/Shabnam-FD.woff") format("woff"),
+    url("../fonts/Farsi-Digits/Shabnam-FD.eot") format("eot"),
+    url("../fonts/Farsi-Digits/Shabnam-FD.woff2") format("woff2"),
+    url("../fonts/Farsi-Digits/Shabnam-Light-FD.ttf") format("ttf"),
+    url("../fonts/Farsi-Digits/Shabnam-Light-FD.woff") format("woff"),
+    url("../fonts/Farsi-Digits/Shabnam-Light-FD.eot") format("eot"),
+    url("../fonts/Farsi-Digits/Shabnam-Light-FD.woff2") format("woff2"),
+    url("../fonts/Farsi-Digits/Shabnam-Bold-FD.ttf") format("ttf"),
+    url("../fonts/Farsi-Digits/Shabnam-Bold-FD.woff") format("woff"),
+    url("../fonts/Farsi-Digits/Shabnam-Bold-FD.eot") format("eot"),
+    url("../fonts/Farsi-Digits/Shabnam-Bold-FD.woff2") format("woff2"),
+    ;
+}
+
+
 .App{
     height: 300vh;
+    scrollbar-width: 5px;
+    font-family: 'shabnam';
 }
+// Scrollbar styles
+::-webkit-scrollbar,.scroller{
+    scrollbar-width: 8px;
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track{
+    background-color: transparent;
+  }
+  ::-webkit-scrollbar-thumb{
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.253);
+  }
+ 

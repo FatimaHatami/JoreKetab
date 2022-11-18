@@ -9,10 +9,10 @@ const Header =(props:any)=>{
             <div className="header__logo">
                         <img src={props.Logo} alt="joreketab"></img>
             </div>
-            <div className="header__navbar">
+            <div className="header__navbar ">
                 <Navbar/>
             </div>
-            <div className="header__quick-action">
+            <div className="header__quick-action ">
                 <QuickAction/>
             </div>
         </div>

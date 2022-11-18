@@ -1,3 +1,4 @@
+@import '../../../assets/variables.scss';
 .navbar{
     height: 80px;
     // background-color: blueviolet;
@@ -8,5 +9,15 @@
         margin: 0 20px;
         text-decoration: none;
         font-weight: bold;
+        color:$primary-text-color;
+        font-weight: 400;
+        position: relative;
+        transition:all .3s ;
+        &:hover{
+            color: $secondary-color;
+            transform: scale(1.15);
+            
+            
+        }
     }
 }
