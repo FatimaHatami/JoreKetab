@@ -1,21 +1,24 @@
 @import '../../assets/variables.scss';
-.scroll-up-button{
+@import '../../assets/animations.scss';
+.scroll-up{
     position: fixed;
     bottom: 0;
     right: 0;
-    button{
+    z-index: 11111111;
+    .scroll-top-btn{
     margin: 20px;
-    font-size: 35px;
+    font-size: $icon-font-size;
     background-color:$primary-dark-color;
     border: none;
     outline: none;
     cursor: pointer;
     color: #fff;
-    height: 50px;
-    width: 50px;
+    height: 45px;
+    width: 45px;
     border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
+    animation: moveScrollBtn 2s ease infinite;
     }
 }

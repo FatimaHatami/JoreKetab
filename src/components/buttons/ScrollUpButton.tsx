@@ -18,9 +18,9 @@ const ScrollUpButtton=()=>{
         })
     }
     return(
-        <div className='scroll-up-button'>
+        <div className='scroll-up'>
             {
-                showScrollBtn && (<button onClick={scrollTopBtnHandler}> <AiOutlineArrowUp/> </button>  )
+                showScrollBtn && (<button className='scroll-top-btn' onClick={scrollTopBtnHandler}> <AiOutlineArrowUp/> </button>  )
             }
         </div>
     )

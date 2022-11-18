@@ -1,0 +1,19 @@
+@import "../../../assets/variables.scss";
+.quick-action{
+    height: 80px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    button{
+        background:none;
+        border: none;
+        outline: none;
+        font-size: $icon-font-size;
+        transition: .4s;
+        margin: 0 5px;
+        cursor:pointer;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+}
