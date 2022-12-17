@@ -1,3 +1,13 @@
 .slider{
-    overflow: visible;
+    // overflow: visible;
+    &__image-container{
+        // height: 650px;
+        width: 100%;
+        img{
+            height: auto;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
 }

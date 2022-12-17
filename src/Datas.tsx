@@ -1,37 +1,37 @@
-import image1 from './assets/images/books/TheyBothDieInTheEnd.jpg';
-import image2 from './assets/images/books/MidnightLibrary.jpg'
-import image3 from './assets/images/books/AishmanInOrshalim.jpg';
-import image4 from './assets/images/books/RemindersOfHim.jpg';
-const sliderDatas=[
-    {name:'هر دو در نهایت میمیرند',
-     author:'مت هیگ',
-     imgSrc:image1,
-     price:'135000',
-     gist:'پنجم سپتامبر، کمی بعد از نیمه‌شب، از قاصد مرگ با متیو تورز و روفوس امتریو تماس گرفته می‌شود تا خبر بدی به آن‌ها داده شود: آن‌ دو قرار است امروز بمیرند. متیو و روفوس با هم کاملاً غریبه‌اند اما به دلایل مختلف و متفاوتی هر دویشان در روز آخر زندگی‌شان به دنبال پیدا کردن دوست جدیدی هستند و این شروعی است برای یک پایان پر از ماجراجویی و هیجان.',
-     bgColor:'191C4E'
-     },
-     {name:'یاد او ',
-     author:'مت هیگ',
-     imgSrc:image4,
-     price:'145000',
-     gist:'کِنا روآن مادری دل‌شکسته است که به دلیل اشتباهی مرگبار، پنج سال از عمرش را در زندان سپری کرده است. پس از آزادی، به امید دیدار دختر چهارساله‌اش به شهر بازمی‌گردد. اما هیچ‌کس پذیرای او نیست؛ همه پل‌های پشت‌سرش خراب شده‌اند. کنا به‌سختی تلاش می‌کند تا حُسن‌نیت خود را اثبات کند، اما همه می‌خواهند او را از زندگی دخترش بیرون برانند. تنها کسی که روزنه‌ای از امید به رویش می‌گشاید، لجر وارد است. اما اگر کسی به رابطه‌ی آن‌ها پی ببرد، همان کورسوی امید هم از دست می‌رود. حال کنا باید راهی بیابد تا با جبران اشتباهات گذشته، آینده‌ای پر از شادی و امید را برای خود و عزیزانش رقم بزند.',
-     bgColor:'1790a3'
+// Categories images
+import ScienceImg from './assets/images/categories/chemistry.png';
+import RomanceImg from './assets/images/categories/love-birds.png';
+import EducationImg from './assets/images/categories/education.png';
+import HistoryImg from './assets/images/categories/parchment.png';
+import PsycologyImg from './assets/images/categories/science-book.png';
+
+const CategoriesData=[
+    {
+        categoryName:"علمی",
+        categoryIcon:ScienceImg,
+        categoryBackgroundColor:"#f9f1ff"
     },
-     {name:'کتابخانه نیمه شب ',
-     author:'مت هیگ',
-     imgSrc:image2,
-     price:'115000',
-     gist:'جایی آن‌سوی لبۀ دنیا کتابخانه‌ای هست با تعداد بی‌شماری کتاب، که هر کدام قصۀ یک زندگی را روایت می‌کنند. یکی قصۀ زندگی‌ات به همین شکل کنونی‌اش است و دیگری قصۀ زندگی‌ات با این فرض که زمانی در جایی انتخاب متفاوتی کرده باشی. همه‌مان همیشه در این فکریم که شاید زندگی‌مان می‌توانست متفاوت باشد، اما اگر شانس این را داشته باشی که به این کتابخانه بروی و خودت تمام زندگی‌های دیگرت را ببینی چه؟ امکان دارد هر کدام از این زندگی‌ها بهتر از زندگی کنونی‌ات باشند؟',
-     bgColor:'30384b'
+    {
+        categoryName:"رمان",
+        categoryIcon:RomanceImg,
+        categoryBackgroundColor:"#fff6f7"
     },
-     {name:'آیشمن در اورشلیم',
-     author:'مت هیگ',
-     imgSrc:image3,
-     price:'95000',
-     gist:"«هانا آرنت معتقد است که در تاریک‌ترین روزها هم می‌توان به یافتن بارقه‌ای از نور امیدوار بود؛ نوری که نه از نظریه‌ها و مفاهیم، بلکه از حیات و اعمال افراد سرچشمه می‌گیرد... آرنت هشدار می‌دهد که نباید به وسوسه‌ی پوچ‌گرایی، بدبینی یا بی‌تفاوتی تن در داد. او در مقابلِ امید بی‌جا و یأس بی‌جا مقاومت می‌کرد و در توصیف ظلمات زمانه‌ی ما، در توصیف دروغ، نیرنگ، خودفریبی، تصویرسازی و تلاش برای نابودکردن تمایز میان حقیقت و دروغ، صریح و بی‌پروا بود... و به این خاطر است که امروز، آرنت را باید خواند و دوباره خواند.»",
-     bgColor:'731922'
+    {
+        categoryName:"آموزشی",
+        categoryIcon:EducationImg,
+        categoryBackgroundColor:"#f4e6e5"
     },
+    {
+        categoryName:"تاریخ",
+        categoryIcon:HistoryImg,
+        categoryBackgroundColor:"#e7f2f4"
+    },
+    {
+        categoryName:"روانشناسی",
+        categoryIcon:PsycologyImg,
+        categoryBackgroundColor:"#fbf4ec"
+    }
      
 ]
 
-export default sliderDatas;
+export default CategoriesData;
